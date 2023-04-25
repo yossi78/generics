@@ -1,6 +1,7 @@
 package com.example.generics.services;
 
 
+// main class
 public class Lab {
 
 

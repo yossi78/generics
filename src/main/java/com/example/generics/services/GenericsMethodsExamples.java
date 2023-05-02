@@ -16,7 +16,7 @@ public class GenericsMethodsExamples {
     }
 
 
-    public static void printList(List<?> list){
+    public static void printList(List<? extends Printable> list){
         list.stream().forEach(c->{
             System.out.println(c);
         });

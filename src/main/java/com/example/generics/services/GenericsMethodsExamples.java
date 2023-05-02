@@ -22,6 +22,7 @@ public class GenericsMethodsExamples {
         });
     }
 
+
     public static void main(String[] args) {
         Printable cat1=new Cat();
         Printable cat2=new Cat();
@@ -45,15 +46,13 @@ public class GenericsMethodsExamples {
         System.out.println("-------------- PRINT CAT --------------------------------------------");
         printAnyThing(cat1);
 
-
-
         System.out.println("--------------PRINT TWO GENERIC VALUES--------------------------------------------");
         printTwoThing("str",9);
 
-        System.out.println("------------PRINT CAT LIST ----------------------------------------------");
+        System.out.println("------------PRINT CAT LIST WITH METHOD USING WILDCARD ----------------------------------------------");
         printList(catList);
 
-        System.out.println("------------PRINT DOG LIST ----------------------------------------------");
+        System.out.println("------------PRINT DOG LIST WITH METHOD USING WILDCARD ----------------------------------------------");
         printList(dogList);
 
 

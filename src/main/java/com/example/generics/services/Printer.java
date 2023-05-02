@@ -1,5 +1,7 @@
 package com.example.generics.services;
 
+import java.io.Serializable;
+
 public class Printer<T extends Printable> {
 
 

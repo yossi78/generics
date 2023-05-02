@@ -7,4 +7,10 @@ public class Dog implements Printable{
     public void printNow() {
         System.out.println("I AM A DOG");
     }
+
+
+    @Override
+    public String toString() {
+        return "I AM A DOG FROM TO-STRING";
+    }
 }

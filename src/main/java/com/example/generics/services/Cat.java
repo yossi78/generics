@@ -7,4 +7,9 @@ public class Cat implements Printable{
     public void printNow() {
         System.out.println("I AM A CAT");
     }
+
+    @Override
+    public String toString() {
+        return "I AM A CAT FROM TO-STRING";
+    }
 }
